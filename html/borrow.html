@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>借閲書籍</title>
+  </head>
+  <body>
+    <h1>借閲書籍</h1>
+    <label for="bookNameInput">書籍名稱：</label>
+    <input type="text" id="bookNameInput" />
+    <button id="searchButton">查詢未借閲書籍</button><br />
+    <label for="borrowerInput">借閲人名： </label>
+    <input type="text" id="borrowerInput" placeholder="Ex: 小明" /><br />
+    <label for="numberInput">書籍編號：</label>
+    <input type="text" id="numberInput" placeholder="Ex: 1" />
+    <button id="borrowButton">借閲書籍</button>
+
+    <h3 id="Message"></h3>
+    <div id="bookContainer"></div>
+    <script src="../javascript/borrow.js" defer></script>
+  </body>
+</html>

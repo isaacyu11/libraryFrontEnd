@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>歸還書籍</title>
+  </head>
+  <body>
+    <h1>歸還書籍</h1>
+    <label for="borrowerInput">借閲人名：</label>
+    <input type="text" id="borrowerInput" />
+    <button id="searchButton">查詢借閲書籍</button><br />
+    <label for="numberInput">書籍編號：</label>
+    <input type="text" id="numberInput" placeholder="Ex: 1" />
+    <button id="returnButton">歸還書籍</button>
+
+    <h3 id="Message"></h3>
+    <div id="bookContainer"></div>
+    <script src="../javascript/return.js" defer></script>
+  </body>
+</html>

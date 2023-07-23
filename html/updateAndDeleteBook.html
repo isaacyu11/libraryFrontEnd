@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>更新或刪除書籍</title>
+  </head>
+  <body>
+    <h1>更新或刪除書籍</h1>
+
+    <h2>刪除書籍</h2>
+    <label for="deleteBookIdInput">書籍ID：</label>
+    <input type="text" id="deleteBookIdInput" />
+    <button id="deleteButton">刪除</button>
+
+    <h2>更新書籍</h2>
+    <label for="updateBookIdInput">書籍ID：</label>
+    <input type="text" id="updateBookIdInput" /><br />
+    <label for="updateBookNameInput">書籍名稱：</label>
+    <input type="text" id="updateBookNameInput" /><br />
+    <label for="updateBookPriceInput">書籍價格：</label>
+    <input type="text" id="updateBookPriceInput" /><br />
+    <label for="updateBookAuthorInput">書籍作者：</label>
+    <input
+      type="text"
+      id="updateBookAuthorInput"
+      placeholder="Ex: Jason, Peter, Bob"
+    /><br />
+    <button id="updateButton">更新</button>
+    <h3 id="Message"></h3>
+    <div>
+      <p id="bookName"></p>
+      <p id="bookPrice"></p>
+      <p id="bookAuthors"></p>
+    </div>
+    <script src="../javascript/updateAndDeleteBook.js"></script>
+  </body>
+</html>

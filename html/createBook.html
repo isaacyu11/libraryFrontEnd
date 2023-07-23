@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新增書籍</title>
+  </head>
+  <body>
+    <h1>新增書籍</h1>
+    <label for="bookNameInput">書籍名稱：</label>
+    <input type="text" id="bookNameInput" /><br />
+    <label for="bookPriceInput">書籍價格：</label>
+    <input type="text" id="bookPriceInput" /><br />
+    <label for="bookAuthorsInput">書籍作者：</label>
+    <input
+      type="text"
+      id="bookAuthorsInput"
+      placeholder="Ex: Jason, Peter, Bob"
+    /><br />
+    <button id="createButton">新增</button>
+
+    <h3 id="Message"></h3>
+    <div>
+      <p id="bookName"></p>
+      <p id="bookPrice"></p>
+      <p id="bookAuthors"></p>
+    </div>
+    <script src="../javascript/createBook.js" defer></script>
+  </body>
+</html>
